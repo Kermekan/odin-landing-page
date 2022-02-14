@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+:root {
+    --primary: #3882f6;
+    
+    --primary-text: #1f2937;
+    --secondary-text: #f9faf8;
+    
+    --bg-primary: #1f2937;
+    --bg-secondary: #e5e7eb;
+    
+    --fs-hero-heading: 48px;
+    --fs-section-heading: 36px;
+    
+    --section-padding: 20px;
+    --section-spacing: 50px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+    width: 100vw; 
+    min-height: 100vh;
+    
+    margin: 0;
+    padding: 0;
+    
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    overflow-x: hidden;
+}
+
+/* -------------------------------- Utilities ------------------------------- */
+li {
+    list-style: none;
+}
+
+ul,
+ol,
+li,
+a {
+    margin: 0;
+    padding: 0;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+img {
+    width: 100%;
+}
+
+.btn {
+    background-color: var(--primary);
+    font-weight: 600;
+    width: fit-content;
+    border-radius: 10px;
+    
+}
+
+.btn a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    padding: 7px 30px;
+    cursor: pointer;
+}
+
+/* Inner container */
+.inner {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: var(--section-padding);
+    
+    /* border: 2px solid red; */
+}
+
+/* ------------------------------ Header Section ------------------------------ */
+header {
+    width: 100%;
+    height: fit-content;
+    
+    color: var(--secondary-text);
+    background-color: var(--bg-primary);
+}
+
+/* Navbar */
+.navbar {
+    width: 100%;
+    justify-content: space-between;
+    /* border: 2px solid yellow; */
+}
+
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar .links {
+    width: fit-content;
+    height: fit-content;
+    /* border: 2px solid green; */
+}
+
+/* Link container */
+.navbar .links ul {
+    gap: 15px;
+    /* border: 2px solid lightblue; */
+}
+
+.navbar .link-item a:hover {
+    text-decoration: underline;
+}
+
+/* Hero */
+.hero {
+    padding: 100px 0;
+    /* border: 2px solid firebrick; */
+}
+
+.hero > * {
+    width: 50%;
+    gap: 20px;
+}
+
+/* Heading */
+.hero .text-container {
+    padding-right: 15px;
+}
+
+.hero .text-container .heading {
+    font-size: var(--fs-hero-heading);
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+.hero .text-container p {
+    padding-right: 15px;
+}
+
+.hero .img-container {
+    padding-left: 15px;
+}
+
+
+
+
+
+
+
+
