@@ -9,40 +9,100 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Header -->
     <header id="header">
         <div class="inner header-inner">
-            <div class="content">
-                <!-- Navbar -->
-                <div class="navbar flex">
-                    <div class="logo">
-                        <span>Header Logo</span>
+            <!-- Navbar -->
+            <div class="navbar flex">
+                <div class="logo">
+                    <span>Header Logo</span>
+                </div>
+                <div class="links flex">
+                    <ul class="flex">
+                        <li class="link-item"> <a href="">Link one</a></li>
+                        <li class="link-item"> <a href="">Link two</a></li>
+                        <li class="link-item"> <a href="">Link three</a></li>
+                    </ul>
+                </div>
+            </div><!-- .navbar -->
+            <!-- Hero -->
+            <div class="hero flex">
+                <div class="text-container">
+                    <p class="heading">This website is awesome</p>
+                    <p>
+                        This website has some subtext that goes here under the main title. 
+                        It's a smaller font and the color is lower contrast.
+                    </p>
+                    <div class="btn header-btn">
+                        <a href="">Sign up</a>
                     </div>
-                    <div class="links flex">
-                        <ul class="flex">
-                            <li class="link-item"> <a href="">Link one</a></li>
-                            <li class="link-item"> <a href="">Link two</a></li>
-                            <li class="link-item"> <a href="">Link three</a></li>
-                        </ul>
-                    </div>
-                </div><!-- .navbar -->
-                <!-- Hero -->
-                <div class="hero flex">
-                    <div class="text-container">
-                        <p class="heading">This website is awesome</p>
-                        <p>
-                            This website has some subtext that goes here under the main title. 
-                            It's a smaller font and the color is lower contrast.
-                        </p>
-                        <div class="btn header-btn">
-                            <a href="">Sign up</a>
-                        </div>
-                    </div>
-                    <div class="img-container">
-                        <img src="header-img.jpg">
-                    </div>
-                </div><!--.hero-->
-            </div><!--.content-->
+                </div>
+                <div class="img-container">
+                    <img src="header-img.jpg">
+                </div>
+            </div><!--.hero-->
         </div><!-- .inner --> 
     </header>
+    <!-- Info -->
+    <section id="info">
+        <div class="inner info-inner">
+            <div class="title">
+                <h1>Some random information.</h1>
+            </div>
+            <div class="gallery flex">
+                <div class="img-container">
+                    <div class="img"></div>
+                    <div class="description">This is some subtext under and image or illustration</div>
+                </div>
+                <div class="img-container">
+                    <div class="img"></div>
+                    <div class="description">This is some subtext under and image or illustration</div>
+                </div>
+                <div class="img-container">
+                    <div class="img"></div>
+                    <div class="description">This is some subtext under and image or illustration</div>
+                </div>
+                <div class="img-container">
+                    <div class="img"></div>
+                    <div class="description">This is some subtext under and image or illustration</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Quote -->
+    <section id="quote">
+        <div class="inner quote-inner">
+            <div class="quote-container">
+                <p class="quote flex">
+                    This is an inspiring quote, or a testimonial from a customer. Maybe it's filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.
+                </p>
+                <div class="person">
+                    <span>Thor, God of Thunder</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- CTA -->
+    <section id="sign-up">
+        <div class="inner sign-up-inner">
+            <div class="action-container flex">
+                <div class="text">
+                    <p class="heading">Call to action! It's time!</p>
+                    <p class="description">Sign up for our product by clicking that button right over there!</p>
+                </div>
+                <div class="btn sign-up-btn">
+                    <a href="">Sign up</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="inner footer-inner">
+            <div class="copyright flex">
+                <p>Copyright <span>&copy;</span> The Odin Project 2022</p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
