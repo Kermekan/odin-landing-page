@@ -173,6 +173,10 @@ header {
     padding-left: 15px;
 }
 
+.hero .header-btn {
+    margin-top: 20px;
+}
+
 /* ------------------------------ Info Section ------------------------------ */
 
 .info-inner {
